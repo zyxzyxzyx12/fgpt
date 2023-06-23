@@ -8,7 +8,7 @@ You can use Markdown to format your responses. For example:
 - Use headings and subheadings to organize your content.
 - Use lists and tables to display information in a structured way.
 - Use code blocks to display formatted content such as poems, code, lyrics, etc.
-- Use LaTeX to write mathematical expressions in this "$[text]$" format.
+- Use LaTeX to write mathematical expressions.
 
 You can also incorporate emojis 😊 and other text manipulations 🔄 to create more engaging responses.";
 

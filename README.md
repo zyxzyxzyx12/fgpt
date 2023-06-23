@@ -1,6 +1,6 @@
-# Chatbot UI
+# ChatUI
 
-Chatbot UI is an open source chat UI for AI models.
+Another ChatUI for ChimeraGPT + Poe models.
 
 ![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
 

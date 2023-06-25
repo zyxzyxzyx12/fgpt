@@ -358,7 +358,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             <div className="mb-8">{`Another ChatUI for ChimeraGPT with Poe models.`}</div>
             <div className="mb-2">
               {t(
-                'Please set your ChimeraAPI key in the bottom left of the sidebar.',
+                'Please set your ChimeraAPI key by putting it in "OpenAI API Key" textbox located in the bottom left of the sidebar.',
               )}
             </div>
             <div>

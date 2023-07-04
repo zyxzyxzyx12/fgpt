@@ -19,7 +19,7 @@ export enum OpenAIModelID {
   CLAUDE_INSTANT = 'claude-instant',
   CLAUDE_INSTANT_100K = 'claude-instant-100k',
   BARD = 'bard',
-  CHAT_BISON_001 = 'chat-bison-001', // Added Chat Bison 001
+  CHAT_BISON_001 = 'chat-bison-001', // Added the new model id
 }
 
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
@@ -92,10 +92,10 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 30000,
     tokenLimit: 10240,
   },
-  [OpenAIModelID.CHAT_BISON_001]: {
+  [OpenAIModelID.CHAT_BISON_001]: { // New model entry
     id: OpenAIModelID.CHAT_BISON_001,
-    name: 'Chat Bison 001',
-    maxLength: OpenAIModels[OpenAIModelID.BARD].maxLength,
-    tokenLimit: OpenAIModels[OpenAIModelID.BARD].tokenLimit,
+    name: 'Chat Bison 001', // Change the name as desired
+    maxLength: 30000,
+    tokenLimit: 10240,
   },
 };

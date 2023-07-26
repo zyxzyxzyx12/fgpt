@@ -392,7 +392,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                         <Spinner size="16px" className="mx-auto" />
                       </div>
                     ) : (
-                      'ChimeraGPT'
+                      ''
                     )}
                   </div>
 
@@ -407,16 +407,6 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
                           handleUpdateConversation(selectedConversation, {
                             key: 'prompt',
                             value: prompt,
-                          })
-                        }
-                      />
-
-                      <TemperatureSlider
-                        label={t('Temperature')}
-                        onChangeTemperature={(temperature) =>
-                          handleUpdateConversation(selectedConversation, {
-                            key: 'temperature',
-                            value: temperature,
                           })
                         }
                       />

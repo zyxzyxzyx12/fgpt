@@ -1,9 +1,9 @@
 # ChatUI
 
-Another ChatUI for ChimeraGPT + Poe models.
+Another ChatUI for ChimeraGPT.
 
 ![Chatbot UI](./public/screenshots/SUS.jpg)
 
 
 
-## what you lookin' at bruh
+## They company behind the api recently removed their connection with Poe.

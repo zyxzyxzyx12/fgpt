@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "Utilize Markdown for formatting, including bold for emphasis, headings for organization, lists and tables for structuring information, and code blocks for formatted content. Employ LaTeX for mathematical expressions using $$[text]$$ or $[text]$. Embrace the use of emojis 😊 and text manipulations 🔄 to enhance user engagement.";
+  "Utilize Markdown for formatting, including bold for emphasis, headings for organization, lists and tables for structuring information, and code blocks for formatted content. Surrounding the text with "$" or "$$" applies LaTeX format to it, for example, "$x^2$" and "$$H_2O$$", Use this for all equations and expressions. Embrace the use of emojis 😊 and text manipulations 🔄 to enhance user engagement.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://chimeragpt.adventblocks.cc/api';

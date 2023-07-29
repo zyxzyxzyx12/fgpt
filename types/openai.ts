@@ -23,6 +23,7 @@ export enum OpenAIModelID {
   CLAUDE_2_100K = 'claude-2-100k',
   CLAUDE_INSTANT_100K = 'claude-instant-100k',
   CLAUDE_INSTANT = 'claude-instant',
+  LLAMA_2_70B_CHAT = 'llama-2-70b-chat',
 }
 
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
@@ -113,6 +114,12 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     name: 'Claude-Instant',
     maxLength: 36000,
     tokenLimit: 10240,
+  },
+  [OpenAIModelID.LLAMA_2_70B_CHAT]: {
+    id: OpenAIModelID.LLAMA_2_70B_CHAT,
+    name: 'llama-2-70b-chat',
+    maxLength: 12000,
+    tokenLimit: 4096,
   },
 };
   
